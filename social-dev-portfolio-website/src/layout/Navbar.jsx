@@ -23,7 +23,7 @@ const scrollToSection = (id) => {
   }
 };
 
-const Navbar = () => {
+const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
@@ -127,4 +127,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
